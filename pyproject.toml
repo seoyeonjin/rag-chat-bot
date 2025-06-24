@@ -1,0 +1,34 @@
+[project]
+name = "soly"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yeonjin seo",email = "duswls214@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "langchain (>=0.3.25,<0.4.0)",
+    "langchain-community (==0.3.24)",
+    "mangum (==0.19.0)",
+    "tiktoken (==0.9.0)",
+    "boto3 (>=1.38.21,<2.0.0)",
+    "onnxruntime (>=1.17,<1.22)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "faiss-cpu (>=1.11.0,<2.0.0)",
+    "olefile (>=0.47,<0.48)",
+    "langchain-aws (>=0.2.24,<0.3.0)",
+    "uvicorn (>=0.34.3,<0.35.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+faiss-cpu = "^1.11.0"
+gradio = "^5.33.0"
+httpx = "^0.28.1"
+sseclient-py = "^1.8.0"
+

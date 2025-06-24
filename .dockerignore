@@ -1,0 +1,25 @@
+# data 
+data/
+embedding/
+
+# build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# vscode
+.vscode/
+.idea/
+
+# os
+.DS_Store
+.env
+
+tests/
+*.zip
+.venv/
+*.md
+*.json
+*.ipynb
