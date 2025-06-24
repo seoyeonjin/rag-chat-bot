@@ -102,6 +102,12 @@ This indicates that most queries were processed within 7 seconds, with even outl
 
 The evaluation highlights that RAG-based architectures are highly effective for delivering accurate, policy-compliant responses in specialized domains such as solar power. By leveraging document-based context, RAG minimizes hallucinations and ensures consistency with industry standards and internal policies.
 
+## 💻 Demo
+
+https://github.com/user-attachments/assets/bdd60bab-8e6a-4abc-b448-f6fcb3487942
+
+
+
 ## 📌 Project Information
 
 - Developer: Individual (solo project)
